@@ -13,7 +13,7 @@ public:
     bool hasAttempted(string username);
     int getUserScore(string username);
     void totalPlayers();
-    void saveScore(string username, int score, int total);
+    void saveScore(string username, int score);
     void showLeaderboard();
      void showLeaderboard(int totalQuestions);
 };
